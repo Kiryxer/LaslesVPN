@@ -1514,8 +1514,7 @@ a {
   }
   .menu__list-link {
     padding: 10px 0;
-    display: inline-block;
-    width: 100%;
+    display: block;
   }
   .menu__list-item + .menu__list-item {
     margin-left: 0;
@@ -1565,12 +1564,16 @@ a {
   }
   .header__inner {
     margin-bottom: 0;
+    padding-top: 10px;
   }
   .header__content {
     display: block;
   }
   .header__box {
     margin-bottom: 50px;
+  }
+  .header__image {
+    display: none;
   }
   .header__item-locations::before, .header__item-servers::before {
     left: -25%;
